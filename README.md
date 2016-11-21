@@ -12,7 +12,7 @@ use the `<register-name>:<key-value>` as a [link-label](http://spec.commonmark.o
     [Minister for the Cabinet Office][government-role:minister-for-the-cabinet-office]
     [Francis Maude][government-person:francis-maude]
 
-The [shortcut reference](http://spec.commonmark.org/0.27/#shortcut-reference-link) can be a link to a human-friendly page:
+The displayed text can be whatever you like, as can be the [shortcut reference](http://spec.commonmark.org/0.27/#shortcut-reference-link), which can be a link to a human-friendly page:
 
     [country:CZ]: https://www.gov.uk/government/world/czech-republic
     [company:02216369]: https://beta.companieshouse.gov.uk/company/02216369
@@ -20,7 +20,7 @@ The [shortcut reference](http://spec.commonmark.org/0.27/#shortcut-reference-lin
     [government-person:francis-maude]: https://www.gov.uk/government/people/francis-maude 
     [government-role:minister-for-the-cabinet-office]: https://www.gov.uk/government/ministers/minister-for-the-cabinet-office
 
-which is rendered by any markdown process as follows:
+The text be rendered by any markdown processor as follows:
 
 * [The Czech Republic][country:CZ]
 * [BT Ltd][company:02216369]
@@ -28,7 +28,7 @@ which is rendered by any markdown process as follows:
 * [Minister for the Cabinet Office][government-role:minister-for-the-cabinet-office]
 * [Francis Maude][government-person:francis-maude]
 
-The CURIEs can be used to produce [microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)), [RDFa](https://en.wikipedia.org/wiki/RDFa), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)  and other annotations.
+but the CURIEs can be used to produce [microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)), [RDFa](https://en.wikipedia.org/wiki/RDFa), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)  and other annotations.
 
 ## Example documents
 
@@ -36,7 +36,7 @@ The CURIEs can be used to produce [microdata](https://en.wikipedia.org/wiki/Micr
 
 ## Why would I do this?
 
-Tools can help editors ensure consistent naming in documents and make global changes, eg. when an organisation changes its name.
+Tools can help editors ensure consistent naming in documents and make global changes, for example, to update the text when an organisation changes its name.
 
 Improving the precision of links helps with search and analysis, especially where the same text can refer to multiple things.
 
