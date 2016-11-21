@@ -1,6 +1,6 @@
 # Doctate
 
-A convention for improving citations in markdown documents using [CURIE](https://en.wikipedia.org/wiki/CURIE)s.
+A convention for improving citations in [markdown](https://en.wikipedia.org/wiki/Markdown) documents using [CURIE](https://en.wikipedia.org/wiki/CURIE)s.
 
 When referring to a [country][register:country], [local authority][register:local-authority-eng]
 or indeed anything recorded in a [GOV.UK register](https://www.gov.uk/government/publications/registers/registers)
@@ -20,7 +20,7 @@ The displayed text can be whatever you like, as can be the [shortcut reference](
     [government-person:francis-maude]: https://www.gov.uk/government/people/francis-maude 
     [government-role:minister-for-the-cabinet-office]: https://www.gov.uk/government/ministers/minister-for-the-cabinet-office
 
-The text be rendered by any markdown processor as follows:
+The text will be rendered by any markdown processor as follows:
 
 * [The Czech Republic][country:CZ]
 * [BT Ltd][company:02216369]
