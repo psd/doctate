@@ -2,17 +2,9 @@
 
 A convention for improving citations in markdown documents using [CURIE](https://en.wikipedia.org/wiki/CURIE)s.
 
-## Why?
-
-Tools can help editors ensure consistent naming in documents and make global changes, eg. when an organisation changes its name.
-
-Improving the precision of links helps with search and analysis, especially where the same text can refer to multiple things.
-
-## Markdown
-
-When referring to a [country][register:country], [local authority][register:local-authority-eng],
-or indeed anything recorded in a [GOV.UK register](https://www.gov.uk/government/publications/registers/registers),
-use the `<register-name>:<key-value>` as a [link-label](http://spec.commonmark.org/0.27/#link-label) as follows:
+When referring to a [country][register:country], [local authority][register:local-authority-eng]
+or indeed anything recorded in a [GOV.UK register](https://www.gov.uk/government/publications/registers/registers)
+use the `<register-name>:<key-value>` as a [link-label](http://spec.commonmark.org/0.27/#link-label):
 
     [The Czech Republic][country:CZ]
     [BT Ltd][company:02216369]
@@ -42,7 +34,13 @@ The CURIEs can be used to produce [microdata](https://en.wikipedia.org/wiki/Micr
 
 * [The Statistics and Registration Service Act 2007 (Disclosure of Revenue Information) Regulations 2015][legislation:uksi-2015-1227]
 
-# Background
+## Why would I do this?
+
+Tools can help editors ensure consistent naming in documents and make global changes, eg. when an organisation changes its name.
+
+Improving the precision of links helps with search and analysis, especially where the same text can refer to multiple things.
+
+## Background
 
 This simple idea won the ['solved problem' prize](https://twitter.com/psd/status/800394376040116224) 
 at the [Accountability Hack 2016](http://accountabilityhack.org/), though much of the day was spent
