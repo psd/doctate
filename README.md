@@ -7,6 +7,7 @@ or indeed anything recorded in a [GOV.UK register](https://www.gov.uk/government
 use the `<register-name>:<key-value>` as a [link-label](http://spec.commonmark.org/0.27/#link-label):
 
     [The Czech Republic][country:CZ]
+    [Ashlyns School][school-eng:117578]
     [BT Ltd][company:02216369]
     [Cabinet Office][government-organisation:cabinet-office]
     [Minister for the Cabinet Office][government-role:minister-for-the-cabinet-office]
@@ -15,6 +16,7 @@ use the `<register-name>:<key-value>` as a [link-label](http://spec.commonmark.o
 The displayed text can be whatever you like, as can be the [shortcut reference](http://spec.commonmark.org/0.27/#shortcut-reference-link), which can be a link to a human-friendly page:
 
     [country:CZ]: https://www.gov.uk/government/world/czech-republic
+    [school-eng:117578]: https://www.compare-school-performance.service.gov.uk/school/117578
     [company:02216369]: https://beta.companieshouse.gov.uk/company/02216369
     [government-organisation:cabinet-office]: https://www.gov.uk/government/organisations/cabinet-office
     [government-person:francis-maude]: https://www.gov.uk/government/people/francis-maude 
@@ -24,11 +26,12 @@ The text will be rendered by any markdown processor as follows:
 
 * [The Czech Republic][country:CZ]
 * [BT Ltd][company:02216369]
+* [Ashlyns School][school-eng:117578]
 * [Cabinet Office][government-organisation:cabinet-office]
 * [Minister for the Cabinet Office][government-role:minister-for-the-cabinet-office]
 * [Francis Maude][government-person:francis-maude]
 
-but the CURIEs can be used to produce [microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)), [RDFa](https://en.wikipedia.org/wiki/RDFa), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)  and other annotations.
+The CURIEs can then be used to produce [microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)), [RDFa](https://en.wikipedia.org/wiki/RDFa), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)  and other annotations.
 
 ## Example documents
 
@@ -53,6 +56,7 @@ notably [Dillinger](http://dillinger.io/) as tools to support this way of workin
 [legislation:uksi-2015-1227]: store/legislation/uksi-2015-1227.md
 
 [country:CZ]: https://www.gov.uk/government/world/czech-republic
+[school-eng:117578]: https://www.compare-school-performance.service.gov.uk/school/117578
 [company:02216369]: https://beta.companieshouse.gov.uk/company/02216369
 [government-organisation:cabinet-office]: https://www.gov.uk/government/organisations/cabinet-office
 [government-person:francis-maude]: https://www.gov.uk/government/people/francis-maude 
