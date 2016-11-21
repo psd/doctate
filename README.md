@@ -4,7 +4,7 @@ A convention for improving citations in markdown documents using [CURIE](https:/
 
 ## Why?
 
-Tools can help editors ensure consistent naming in documents and make global changes when an organisation changes its name.
+Tools can help editors ensure consistent naming in documents and make global changes, eg. when an organisation changes its name.
 
 Improving the precision of links helps with search and analysis, especially where the same text can refer to multiple things.
 
@@ -12,7 +12,7 @@ Improving the precision of links helps with search and analysis, especially wher
 
 When referring to a [country][register:country], [local authority][register:local-authority-eng],
 or indeed anything recorded in a [GOV.UK register](https://www.gov.uk/government/publications/registers/registers),
-use the `<register-name>:<key-value>` as a link-label](http://spec.commonmark.org/0.27/#link-label) as follows:
+use the `<register-name>:<key-value>` as a [link-label](http://spec.commonmark.org/0.27/#link-label) as follows:
 
     [The Czech Republic][country:CZ]
     [BT Ltd][company:02216369]
