@@ -31,10 +31,6 @@ The text will be rendered by any markdown processor as follows:
 * [Minister for the Cabinet Office][government-role:minister-for-the-cabinet-office]
 * [Francis Maude][government-person:francis-maude]
 
-## Example documents
-
-* [The Statistics and Registration Service Act 2007 (Disclosure of Revenue Information) Regulations 2015][legislation:uksi-2015-1227]
-
 ## Why would I do this?
 
 Tools can help editors ensure consistent naming in documents and make global changes, for example, to update the text when an organisation changes its name.
@@ -42,6 +38,10 @@ Tools can help editors ensure consistent naming in documents and make global cha
 Improving the precision of links helps with search and analysis, especially where the same text can refer to multiple things.
 
 We can write markdown processors which use the CURIEs to produce [microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)), [RDFa](https://en.wikipedia.org/wiki/RDFa), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)  and other annotations.
+
+## Example documents
+
+* [The Statistics and Registration Service Act 2007 (Disclosure of Revenue Information) Regulations 2015][legislation:uksi-2015-1227]
 
 ## Background
 
