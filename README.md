@@ -31,7 +31,7 @@ The text will be rendered by any markdown processor as follows:
 * [Minister for the Cabinet Office][government-role:minister-for-the-cabinet-office]
 * [Francis Maude][government-person:francis-maude]
 
-The CURIEs can then be used to produce [microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)), [RDFa](https://en.wikipedia.org/wiki/RDFa), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)  and other annotations.
+We can write markdown processors which use the CURIEs to produce [microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)), [RDFa](https://en.wikipedia.org/wiki/RDFa), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)  and other annotations.
 
 ## Example documents
 
